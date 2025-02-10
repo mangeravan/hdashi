@@ -1,0 +1,37 @@
+.home {
+    position: relative;
+    background-color: white;
+  }
+  
+  .slider-item {
+    position: relative;
+  }
+  
+  .slider-item.active {
+    z-index: 10;
+  }
+  
+  .slick-dots {
+    bottom: 1.5rem;
+  }
+  
+  .slick-dots li button:before {
+    opacity: 1;
+    font-size: .8rem;
+    color: rgb(255, 255, 255); /* Adjust color as needed */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ffffff;
+    width: 30px;
+    height: 19px;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+        opacity: 1;
+    /* transform: scale(2); */
+  }
+  

@@ -1,0 +1,38 @@
+.dort-dort-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation: bounce 0.8s infinite alternate;
+  }
+  
+  .circle1 {
+    animation-delay: 0.1s;
+  }
+  
+  .circle2 {
+    animation-delay: 0.3s;
+  }
+  
+  .circle3 {
+    animation-delay: 0.5s;
+  }
+  
+  .circle4 {
+    animation-delay: 0.7s;
+  }
+  
+  @keyframes bounce {
+    to {
+      transform: translateY(-20px);
+    }
+  }
+  
