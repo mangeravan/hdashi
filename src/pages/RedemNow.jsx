@@ -63,7 +63,7 @@ const RedemNow = () => {
             setMobileNoError("Please enter a valid mobile number");
             return
         } else {
-            setMobileNo("")
+            setMobileNoError("");
         }
 
         if (!panNoRegex.test(panNo)) {
